@@ -1,0 +1,3 @@
+= CruiseViewer
+
+jQuery version of BigVisible Cruise
