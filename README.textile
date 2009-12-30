@@ -1,9 +1,9 @@
-= CruiseViewer
+h1. CruiseViewer
 
 jQuery version of BigVisible Cruise
 
 
-==<hr/>==
+== <hr/> ==
 
 Authors:
 
