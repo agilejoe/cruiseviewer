@@ -1,23 +1,15 @@
 <html>                                                                  
-	<head>                                                                  
+  <head>                                                                
+    <meta http-equiv="refresh" content="60" >
 		<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>          
 		<script type="text/javascript" src="js/plugins/jquery.jfeed.pack.js"></script>          
-		<script type="text/javascript">                                         
-			$(document).ready(function() {
-				$.getFeed({
-       					url: 'https:/yoururl.com/projects/project_name.rss',
-       					success: function(feed) {
-						$.each(feed.items, function(n, val){
-							if(n == 1) break;
-							result = val.title.indexOf("success") > 0 ? "SUCCESS":"FAILURE";
-							alert(result);
-						});
-      					}
-   				});
- 			});
-		</script>                                                               
-	</head>                                                                 
+    <script type="text/javascript" src="js/cruiseviewer.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/cruiseviewer.css" />
+</head>                                                                 
 <body>                                                                  
-	<!-- we will add our HTML content here -->                                     
+  <div id="parentDiv"></div>
+  <div>
+    <h3><a href="http://github.com/armmer/cruiseviewer" target="_blank">Cruise Viewer 0.1</a></h3>
+  </div>
 </body>      
 </html>
