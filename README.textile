@@ -2,6 +2,8 @@ h1. CruiseViewer
 
 jQuery version of BigVisible Cruise
 
+currently, only works in Safari browser.
+
 <hr/>
 
 Authors:
