@@ -3,6 +3,7 @@ html, body
   margin: 0;
   padding: 0;
 }
+
 body 
 {
   font: 100% arial, verdana, sans-serif; 
@@ -12,7 +13,7 @@ body
 
 h3 a 
 { 
-  font-color: #ffffff;
+  color: #ffffff;
   font-weight: normal;
   margin: 0;
   padding: 0;
@@ -27,7 +28,7 @@ h3 a
 #parentDiv .Success 
 { 
   
-  margin: 10px 0px;
+  margin: 10px 0px 0px 10px;
   padding: 1em;
   background-color: #00ff00;
   display: inline-block;
@@ -36,7 +37,7 @@ h3 a
 
 #parentDiv .Failure 
 { 
-  margin: 10px 0px;
+  margin: 10px 0px 0px 10px;
   padding: 1em;
   background-color: #ff0000;
   display: inline-block;

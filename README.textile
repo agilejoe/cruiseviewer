@@ -2,11 +2,10 @@ h1. CruiseViewer
 
 jQuery version of BigVisible Cruise
 
-
-== <hr/> ==
+<hr/>
 
 Authors:
 
-Jason Meridth "armmer":http://github.com/armmer
+Jason Meridth "(armmer)":http://github.com/armmer
 
-Joe Ocampo "joeocampo":http://github.com/joeocampo
+Joe Ocampo "(joeocampo)":http://github.com/joeocampo
